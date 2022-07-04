@@ -1,0 +1,13 @@
+body {
+    background-color: lightgray;
+}
+
+.headerPos {
+    align-content: center;
+}
+
+.headerText {
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
