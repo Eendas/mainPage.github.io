@@ -1,9 +1,43 @@
-body {
-    background-color: lightgray;
+/* body {
+    background-image: url("minecraft.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+* {
+	box-sizing: border-box;
 }
 
-.headerPos {
-    align-content: center;
+body {
+	/*Want to change background image?*/
+	/*Upload a new one to the img folder.*/
+	/*Make sure you name it 'minecraft.jpg'*/
+	background: linear-gradient(rgba(20, 26, 35,0.55),rgba(20, 26, 35, 0.55)),
+				url("minecraft.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-family: "Open Sans", Helvetica;
+	margin: 0;
+	position: relative;
+}
+
+html, body {
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.container {
+    text-align: center;
 }
 
 .headerText {
